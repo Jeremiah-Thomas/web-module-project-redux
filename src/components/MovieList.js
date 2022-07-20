@@ -33,7 +33,7 @@ const MovieList = (props) => {
 
 const mapStateToProps = (stateFromStore) => {
   return {
-    movies: stateFromStore.movies,
+    movies: stateFromStore.movieReducer.movies,
   };
 };
 
